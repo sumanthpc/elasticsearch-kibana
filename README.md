@@ -37,14 +37,17 @@ curl https://localhost:9200 -u "elastic:PASS" -k
 
 ### Install and run Kibana
 
+Install Kibana DEB Package.
 ```bash
 sudo apt install ./kibana-8.10.3-amd64.deb
 ```
 
+Create Empty Kibana Config File.
 ```bash
 touch kibana_conf.yml
 ```
 
+Run Kibana
 ```bash
 sudo /usr/share/kibana/bin/kibana -c kibana_conf.yml --allow-root
 ```
@@ -55,4 +58,8 @@ sudo /usr/share/kibana/bin/kibana -c kibana_conf.yml --allow-root
 2. Enter Verification code under Kibana Log
 3. Login and use Kibana
 
- 
+
+## Note
+
+This is not a standard way to install ELK Stack.
+This is just for creating temporary Elastic + Kibana setup for learning.
