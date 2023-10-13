@@ -32,7 +32,7 @@ elasticsearch
  ### Verify Elastic Search
 
  ```bash
-curl https://localhost:9200 -u "elastic:PASS" -k
+curl https://localhost:9200  -k -u "elastic:PASS"
  ```
 
 ### Install and run Kibana
