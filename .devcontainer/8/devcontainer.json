@@ -1,4 +1,5 @@
 {
+  "name": "ES_8_6",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers-contrib/features/elasticsearch-asdf:2": {
